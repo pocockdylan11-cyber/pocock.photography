@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Pocock.Photography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">POCOCK.PHOTOGRAPHY</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Get In Touch</h2>
+        <p style="text-align: center; margin-bottom: 30px; color: #a2b1cd;">Looking to book an automotive shoot, event coverage, or prints? Drop a message below.</p>
+        
+        <div class="form-container">
+            <form action="https://formspree.io/f/YOUR_ENDPOINT" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="_replyto" required placeholder="yourname@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Inquiry Type</label>
+                    <input type="text" id="subject" name="subject" placeholder="Automotive Shoot, Military Event, Prints...">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project..."></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pocock.Photography. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
